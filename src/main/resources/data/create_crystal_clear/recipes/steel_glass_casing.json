@@ -5,12 +5,21 @@
       "item": "create:framed_glass"
     },
     {
-      "item": "alloyed:steel_ingot"
+      "tag": "forge:ingots/steel"
     }
   ],
   "results": [
     {
       "item": "create_crystal_clear:steel_glass_casing"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/steel"
+      }
     }
   ]
 }

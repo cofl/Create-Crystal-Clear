@@ -1,17 +1,15 @@
 package com.cyvack.create_crystal_clear.blocks.glass_casings;
 
-import com.simibubi.create.content.palettes.ConnectedGlassBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockAndTintGetter;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-public class TintedGlassCasing extends GlassBlock {
+public class TintedGlassCasing extends GlassCasing {
 
 	public TintedGlassCasing(Properties p_53640_) {
 		super(p_53640_);
